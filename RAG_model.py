@@ -64,7 +64,6 @@ class DocumentProcessor:
         return raw_text
 
     def process_text(self, text):
-        # Using RecursiveCharacterTextSplitter instead of CharacterTextSplitter
         splitter = RecursiveCharacterTextSplitter(
             separators=["\n\n", "\n", " ", ""],
             chunk_size=1000,
