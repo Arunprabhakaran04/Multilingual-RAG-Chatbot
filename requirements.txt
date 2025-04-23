@@ -1,0 +1,10 @@
+PyPDF2
+langchain
+langchain_community
+faiss-cpu
+langchain-huggingface
+groq
+langchain-groq
+langdetect
+deep-translator
+python-dotenv
